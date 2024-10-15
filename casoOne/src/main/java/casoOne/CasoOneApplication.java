@@ -1,4 +1,4 @@
-package com.casoOne.casoOne;
+package casoOne;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

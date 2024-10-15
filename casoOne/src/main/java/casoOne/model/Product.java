@@ -1,4 +1,4 @@
-package com.casoOne.casoOne.model;
+package casoOne.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -20,14 +20,14 @@ public class Product {
     private String name;
     private String description;
     private double price;
-    private User user;
+    //private User user;
 
     public Product(Integer id, String name, String description, double price, User user) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
-        this.user = user;
+        //this.user = user;
     }
 
     public Product() {
@@ -65,13 +65,13 @@ public class Product {
         this.price = price;
     }
 
-    public User getUser() {
-        return user;
-    }
+    // public User getUser() {
+    //     return user;
+    // }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
+    // public void setUser(User user) {
+    //     this.user = user;
+    // }
 
     @Override
     public String toString() {
